@@ -1,0 +1,47 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    
+    
+}
+h2{
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.imagen, form{
+    background-image: url(/imgs/hermoso-diseno-holograma-criptomonedas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+    height: 100px;
+    padding: 60px;
+}
+.imagen a{
+    color: aliceblue;
+    size: 50px;    
+}
+.caja{
+    text-align: center;
+    background-color: blueviolet;
+    
+    
+}
+img{
+    margin-top: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgrey;
+    padding: 1rem;
+    margin: 2rem;
+
+
+}
