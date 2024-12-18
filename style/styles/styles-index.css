@@ -18,6 +18,9 @@ main {
     gap: 10px;
 }
 
+.titulo-imagen{
+    color: white;
+}
 
 .caja, .funcion{
     display: flex;
@@ -25,26 +28,36 @@ main {
     text-align: center;
     width: 300px;    
 }
-.relativo{
-    position: relative;
-}
-.imagen,
-form {
-    background-image: url(/imgs/hermoso-diseno-holograma-criptomonedas.jpg);
+
+.imagen-padre,
+form{
+    background-image: url(../../imgs/hermoso-diseno-holograma-criptomonedas.jpg);    
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
-    padding: 100px;
-    opacity: .80;
+    height: 300px;
+    position: relative;
 }
-.imagen a {
-    color:  aliceblue;
-    font-size: x-large;
-    background-color: rgba(4, 12, 1, 0.904);
-    padding: .5rem;
-    border-radius: 3px;
-    
+.imagen-fondo{
+        position: absolute;
+        background-color: rgba(4, 12, 1, 0.75);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: x-large;
+        flex-wrap: wrap;    
 
+}
+.imagen-fondo a{
+    text-decoration: none; 
+    color: #ffffff; 
+    font-size: 1.5rem; 
+    background-color:rgba(255, 255, 0, 0.5); 
+    padding: 10px 20px; 
+    border-radius: 5px;
 }
 
 img {    
@@ -64,13 +77,20 @@ footer{
     display: flex;
     justify-content: center;
     text-align: center;
+    align-content: stretch;
     background-color: gray;
     color:black;
     margin: 2rem;
 }
 fieldset{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
     background-color: rgba(0, 40, 40, 0.8);
     border-radius: 50px;
+    height: 80%;
 }
 label, legend{
     color: aliceblue;
