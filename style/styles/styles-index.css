@@ -63,6 +63,16 @@ form{
 img {    
     margin-top: 20px;    
 }
+.logo_whats{
+    position: fixed; 
+    bottom: 0; 
+    right: 0; 
+    padding: 1rem;
+}
+.logo_whats img{
+    max-width: 60px;
+    height: auto;
+}
 
 nav{
     position: sticky;
@@ -76,13 +86,16 @@ nav{
 
 }
 footer{
+    position: relative;
     display: flex;
     justify-content: center;
     text-align: center;
-    align-content: stretch;
+    align-content: center;
     background-color: gray;
     color:black;
-    margin: 2rem;
+    padding: .15rem;
+    margin: 30px;
+    
 }
 fieldset{
     display: flex;
