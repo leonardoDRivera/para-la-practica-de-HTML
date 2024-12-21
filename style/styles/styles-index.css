@@ -17,6 +17,24 @@ main {
     flex-wrap: wrap;
     gap: 10px;
 }
+.grafico-logo-padre {
+    display: flex; 
+    align-items: center; 
+    margin-right: 1rem;
+}
+
+.grafico-logo-padre img {
+    max-width: 100px; 
+    height: auto; 
+    display: block; 
+}
+.header-contenedor {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    gap: 1rem; 
+    padding: 1rem; 
+}
 
 .titulo-imagen{
     color: white;
